@@ -53,7 +53,7 @@ export function Hero() {
                                     transition={{
                                                     delay:1.5,
                                                     duration:0.5}}
-                                className='bg-purple-500 text-white px-6 py-6 rounded-full'>
+                                className='bg-purple-500 text-white px-6 py-6 rounded-full cursor-pointer'>
                                     <Link to='contact'
                                     smooth={true}
                                     duration={500}
@@ -67,7 +67,7 @@ export function Hero() {
                                      transition={{
                                                      delay:1.5,
                                                      duration:0.5}}
-                                     className='text-white border border-white px-6 py-3 rounded-full '><Link to='about'
+                                     className='text-white border border-white px-6 py-3 rounded-full cursor-pointer'><Link to='about'
                                      smooth={true}
                                      duration={500}
                                      offset={-70}

@@ -43,7 +43,7 @@ function Navbar() {
              </div>
 
              <div>
-                <ul className='hidden md:flex items-center space-x-6 list-none lg:text-lg md:text-base text-white'>
+                <ul className='hidden md:flex items-center space-x-6 list-none lg:text-lg md:text-base text-white cursor-pointer'>
                    {items.map((item) =>(
                     <li key={item.id}>
                         <Link to = {item.to} 
@@ -53,7 +53,7 @@ function Navbar() {
                               >{item.text} </Link></li>
                    ))}
                 </ul>
-             </div> <a href="my-portfolio/Resume.bhukya.pdf" 
+             </div> <a href="/my-portfolio/Resume.bhukya.pdf" 
              className='md:texg-base lg:text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full'>Download cv</a>
             
         </motion.div>
@@ -72,16 +72,16 @@ function Navbar() {
                     </div>
                     {menu && (
                         <div className='flex flex-col justify-center items-center'>
-                             <ul className='space-y-6 text-black text-lg' >
+                             <ul className='space-y-6 text-black text-lg ' >
                                  {items.map((item, to) =>(
-                                <li key={item.id} className='hover:text-purple-500 duration-200 cursor-pointer'><Link to = {to} 
+                                <li key={item.id} className='hover:text-purple-500 cursor-pointer duration-200'><Link to = {to} 
                                 smooth = {true}
                                 duration={500}
                                 offset={-70}
                                 >{item.text} </Link></li>
                    ))}
                 </ul>
-                <a href="" className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-6 rounded-full'>Download cv</a>
+                <a href="/my-portfolio/Resume.bhukya.pdf" className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-6 rounded-full'>Download cv</a>
                 </div>
                     )}
                 </motion.div>
