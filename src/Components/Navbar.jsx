@@ -53,7 +53,7 @@ function Navbar() {
                               >{item.text} </Link></li>
                    ))}
                 </ul>
-             </div> <a href="/Resume.bhukya.pdf" 
+             </div> <a href="my-portfolio/Resume.bhukya.pdf" 
              className='md:texg-base lg:text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full'>Download cv</a>
             
         </motion.div>
