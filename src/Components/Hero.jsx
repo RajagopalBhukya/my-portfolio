@@ -16,7 +16,7 @@ export function Hero() {
                         delay:0.5,
                         duration:0.5
                     }}
-                   src='/Mygibli.png' alt="Not Found"  className='mx-auto w-2/3 md:w-1/3 rounded-full   h-[580px] object-cover'/>
+                   src='/my-portfolio/Mygibli.png' alt="Not Found"  className='mx-auto w-2/3 md:w-1/3 rounded-full   h-[580px] object-cover'/>
 
                      <motion.div 
                          initial ={{opacity : 0}}

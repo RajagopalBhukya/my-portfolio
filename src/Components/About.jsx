@@ -37,7 +37,7 @@ export  function About() {
                          className='mb-8 md:mb-0 md:mr-8 flex justify-center'>
 
                             <img    
-                             src='/aboutImg.jpeg' alt="loading" className='mx-auto w-2/3 md:w-1/3 rounded-full  w-2/3  sm:w-1/2  md:w-8/12 md:h-80 object-cover' />
+                             src='/my-portfolio/aboutImg.jpeg' alt="loading" className='mx-auto w-2/3 md:w-1/3 rounded-full  w-2/3  sm:w-1/2  md:w-8/12 md:h-80 object-cover' />
                         </motion.div>
                         <motion.p 
                            initial = {{opacity:0, x:100}}
