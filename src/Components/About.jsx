@@ -25,7 +25,7 @@ export  function About() {
                     animate = {iniView? {}:{opacity:1, y:0}}
                     transition={{delay:0.5, duration:0.5}}
                     className='mb-12 text-gray-400 text-center mt-10'> Hello everyone! Please go and visit my profile. 
-                    Here are my details — feel free to go through them and contact me if you need any website or customized 
+                    Here are my details - feel free to go through them and contact me if you need any website or customized 
                     web applications. I'm also available for freelance projects — feel free to reach out! 
                     </motion.p>
 
