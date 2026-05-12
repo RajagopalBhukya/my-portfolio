@@ -33,8 +33,8 @@ export function Hero() {
                                     duration:0.5}}
 
                         className='text-4xl md:text-5xl flex flex-col gap-4 font-bold' 
-                        >My Story, My Way
-                        <span className='text-purple-500 m-8'>Welcome to Rajagopal's Portfolio</span>
+                        >Hi, I'm Rajagopal Bhukya
+                        <span className='text-purple-500 m-8'>Java Full Stack Developer | React.js | Spring Boot | MySQL</span>
                         </motion.h1>
                              
                             <motion.p    
@@ -44,7 +44,7 @@ export function Hero() {
                                             delay:1.2,
                                             duration:0.5}}
 
-                            className='text-gray-400 text-lg mb-8'>Hi, I'm Rajagopal. Here's my work!</motion.p>
+                            className='text-gray-400 text-lg mb-8'>I build scalable web applications, responsive user interfaces, and secure backend systems using modern full-stack technologies. Passionate about solving real-world problems through clean architecture, optimized performance, and user-focused development.</motion.p>
 
                             <div className='flex justify-center space-x-4 mb-10'>
                                 <motion.button 

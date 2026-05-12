@@ -43,10 +43,12 @@ export  function About() {
                            initial = {{opacity:0, x:100}}
                            animate = {iniView? {}:{opacity:1, x:0}}
                            transition={{delay:0.8, duration:0.5}}
-                        className='md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl'>Hey, There I'm Rajagopal — a dedicated Full Stack Web Developer with a passion for building websites and web applications from start to finish.
-                            I enjoy turning ideas into real, user-friendly digital solutions. With a focus on both front-end design and back-end development, I aim to create
-                             smooth, responsive, and impactful experiences for users. I'm always excited to solve problems, learn new technologies, and collaborate on meaningful 
-                             projects. Let’s work together to bring your ideas to life!
+                        className='md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl'>I'm a passionate Java Full Stack Developer with hands-on experience in building modern web applications using React.js, Spring Boot, MySQL, 
+                        and REST APIs. I specialize in developing responsive frontend interfaces, scalable backend systems, and efficient database architectures.
+
+                        I have worked on projects including HRMS platforms, chat applications, booking systems, and browser-based interactive applications. My experience includes API integration, authentication systems, debugging, query optimization, and frontend state management using React Hooks and Redux.
+
+                        I enjoy transforming ideas into practical digital solutions while continuously learning new technologies and improving development workflows. I’m also open to freelance opportunities and collaborative projects.
                         </motion.p>
                     </div>
                     
@@ -56,22 +58,42 @@ export  function About() {
                                         animate = {iniView? {}:{opacity:1}}
                                         transition={{delay:1.2, duration:0.3}}
                              className='text-center'>
-                                <h3 
-                                className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>1+</h3>
+                                <h4
+                                className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>2+</h4>
                                 <motion.p  initial = {{opacity:0, y:100}}
                                             animate = {iniView? {}:{opacity:1, y:0}}
                                             transition={{delay:1.7, duration:0.5}}
-                                  className='text-sm sm:text-base text-gray-300'>Year of Hands on experience Experience on Web Development</motion.p>
+                                  className='text-sm sm:text-base text-gray-300'>Years of Hands-on Experience in Full Stack Web Development</motion.p>
                             </motion.div>
 
                             <motion.div initial = {{opacity:0}}
                                         animate = {iniView? {}:{opacity:1}}
                                         transition={{delay:1.2, duration:0.3}} className='text-center'>
-                                <h3 className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>4+</h3>
+                                <h4 className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>5+</h4>
                                 <motion.p  initial = {{opacity:0, y:100}}
                                             animate = {iniView? {}:{opacity:1, y:0}}
                                             transition={{delay:1.7, duration:0.5}}
-                                 className='text-sm sm:text-base text-gray-300'>Front-End Projects I have Made</motion.p>
+                                 className='text-sm sm:text-base text-gray-300'>Full Stack & Frontend Projects Developed</motion.p>
+                            </motion.div>
+
+                             <motion.div initial = {{opacity:0}}
+                                        animate = {iniView? {}:{opacity:1}}
+                                        transition={{delay:1.2, duration:0.3}} className='text-center'>
+                                <h4 className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>10+</h4>
+                                <motion.p  initial = {{opacity:0, y:100}}
+                                            animate = {iniView? {}:{opacity:1, y:0}}
+                                            transition={{delay:1.7, duration:0.5}}
+                                 className='text-sm sm:text-base text-gray-300'>Technologies & Tools Used Across Development</motion.p>
+                            </motion.div>
+
+                              <motion.div initial = {{opacity:0}}
+                                        animate = {iniView? {}:{opacity:1}}
+                                        transition={{delay:1.2, duration:0.3}} className='text-center'>
+                                <h4 className='text-3xl md:text-8xl font-bold md:my-6 text-purple-500'>100%</h4>
+                                <motion.p  initial = {{opacity:0, y:100}}
+                                            animate = {iniView? {}:{opacity:1, y:0}}
+                                            transition={{delay:1.7, duration:0.5}}
+                                 className='text-sm sm:text-base text-gray-300'>Focus on Responsive and Scalable Applications</motion.p>
                             </motion.div>
 
                     </div>

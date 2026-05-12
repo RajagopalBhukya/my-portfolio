@@ -85,10 +85,10 @@ export  function Contact() {
                        transition={{delay:0.5, duration:0.5}} 
                      className='flex items-center space-x-4'>
                         <div className='bg-purple-500 p-4 rounded-full'>
-                            <FaInstagram className='text-white w-6 h-6'/> 
+                            <FaGithub className='text-white w-6 h-6'/> 
                         </div>
                         <div>
-                            <p className='text-lg font-medium text-purple-500'> <a href="">Instgram</a></p>
+                            <p className='text-lg font-medium text-purple-500'><a href="https://github.com/RajagopalBhukya">GitHub</a></p>
                            
                         </div>
                     </motion.div>
@@ -104,10 +104,10 @@ export  function Contact() {
                    
                     <div className='flex justify-center space-x-4 text-white mt-4'>
                         <a className='hover:text-purple-500' href="https://www.linkedin.com/in/rajagopal-bhukya-a37b66243/">< FaLinkedin className='w-6 h-6'/></a>
-                        <a className='hover:text-purple-500' href="https://www.instagram.com/rajagopalbhukya/"><FaInstagram  className='w-6 h-6'/></a>
+                        {/* <a className='hover:text-purple-500' href="https://www.instagram.com/rajagopalbhukya/"><FaInstagram  className='w-6 h-6'/></a> */}
                         <a className='hover:text-purple-500'  href="https://github.com/RajagopalBhukya"><FaGithub  className='w-6 h-6'/></a>
-                    </div>
-                    
+                        <a className='hover:text-purple-500'  href="bhukyarajgopal5@gmail.com"> <FaEnvelope className= 'w-6 h-6'/></a>
+                    </div>                    
                 </div>
 
             
