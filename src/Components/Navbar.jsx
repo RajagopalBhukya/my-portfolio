@@ -5,7 +5,7 @@ import { IoLockClosedSharp } from "react-icons/io5";
 import { motion } from "motion/react";
 import { Link } from 'react-scroll';
 
-function Navbar() {
+export function Navbar() {
     const varients = {
         open: { clipPath: "circle(1200px at 43px 43px)" },
         transition: {
@@ -130,4 +130,4 @@ console.log(motion);
     );
 }
 
-export default Navbar;
+

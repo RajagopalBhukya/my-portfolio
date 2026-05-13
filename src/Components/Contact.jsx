@@ -41,7 +41,7 @@ export  function Contact() {
                         </div>
                         <div>
                             <p className='text-lg font-medium text-purple-500'>call me</p>
-                            <p  className='text-white '>+919381115918</p>
+                            <p  className='text-white '>+91 9381115918</p>
                         </div>
                     </motion.div>
 
