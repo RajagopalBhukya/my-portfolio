@@ -31,7 +31,7 @@ console.log(motion);
 
     return (
         <>
-            <div className='sticky top-0 z-50 bg-[#0e0c1e]'>
+            <div className='sticky top-0 z-50 bg-[#0e0c1e] container'>
                 <motion.div
                     initial={{ opacity: 0, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}

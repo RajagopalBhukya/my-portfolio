@@ -25,9 +25,9 @@ export  function Contact() {
                  className="text-3xl md:text-4xl font-bold underline">Contact</motion.h1>      
             </div>
 
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8'>
+            <div div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8'>
 
-                <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-10 md:grid-cols-2 md:gap-x-40 md:mx-3 lg:grid-cols-4 lg:gap-x-80 lg:mx-20'>
+                <div className='grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-10 md:grid-cols-2 md:gap-x-40 md:mx-3 lg:grid-cols-4 lg:gap-x-70 lg:mx-10'>
 
                     <motion.div 
                      ref={ref}
