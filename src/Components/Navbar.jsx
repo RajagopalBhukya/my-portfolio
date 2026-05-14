@@ -103,7 +103,7 @@ console.log(motion);
 
                                     {/* Mobile CV Download Button */}
                                     <a
-                                        href="my-portfolio/Fullstack Engineer.pdf"
+                                        href="/my-portfolio/Fullstack Engineer.pdf"
                                         className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-6 rounded-full'
                                         download
                                         onClick={() => setMenu(false)} // Close menu after CV download
